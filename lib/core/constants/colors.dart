@@ -65,6 +65,13 @@ class AppColor {
   static const Color whiteColor = Color(0xFFFFFFFF);
   static const Color blackColor = Color(0xFF000000);
 
+  // --- Brand Colors (GhorBari) ---
+  static const Color brandNavy = Color(0xFF0C2140);
+  static const Color brandTeal = Color(0xFF26ADA9);
+  static const Color brandTealLight = Color(0xFFE8F6F5);
+  static const Color brandSubtitle = Color(0xFF64748B);
+  static const Color dotInactiveColor = Color(0xFFE2E8F0);
+
   // --- Gray Colors ---
   static const Color gray25 = Color(0xFFFDFDFD);
   static const Color gray50 = Color(0xFFFAFAFA);
