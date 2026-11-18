@@ -9,4 +9,8 @@ abstract class AppRoutes {
   static const String resetPassword = '/reset-password';
   static const String allSet = '/all-set';
   static const String home = '/home';
+  static const String search = '/search';
+  static const String propertyDetail = '/property-detail';
+  static const String sell = '/sell';
+  static const String profile = '/profile';
 }

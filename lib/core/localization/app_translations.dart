@@ -83,6 +83,72 @@ class AppTranslations extends Translations {
           AppStrings.allSet: 'All Set!',
           AppStrings.accountVerifiedSuccess:
               'Your account has been verified successfully.',
+
+          // Bottom Nav
+          AppStrings.navHome: 'Home',
+          AppStrings.navSell: 'Sell',
+          AppStrings.navSearch: 'Search',
+          AppStrings.navProfile: 'Profile',
+
+          // Home
+          AppStrings.helloUser: 'Hello, Rafat 👋',
+          AppStrings.findDreamProperty: 'Find your dream property today',
+          AppStrings.searchPropertiesHint: 'Search houses, apartments...',
+          AppStrings.findYourDreamHome: 'Find Your\nDream Home',
+          AppStrings.buySellRent: 'Buy • Sell • Rent',
+          AppStrings.exploreNow: 'Explore Now',
+          AppStrings.buy: 'Buy',
+          AppStrings.sell: 'Sell',
+          AppStrings.searchManually: 'Search Manually',
+          AppStrings.aiSearch: 'AI Search',
+          AppStrings.featuredProperties: 'Featured Properties',
+          AppStrings.seeAll: 'See all',
+          AppStrings.forSale: 'For Sale',
+          AppStrings.forRent: 'For Rent',
+          AppStrings.beds: 'Beds',
+          AppStrings.baths: 'Baths',
+          AppStrings.sqft: 'sqft',
+
+          // Search
+          AppStrings.searchProperties: 'Search Properties',
+          AppStrings.searchLocationHint: 'Search by location...',
+          AppStrings.all: 'All',
+          AppStrings.apartment: 'Apartment',
+          AppStrings.duplex: 'Duplex',
+          AppStrings.house: 'House',
+          AppStrings.plot: 'Plot',
+          AppStrings.priceRange: 'Price Range',
+          AppStrings.propertyType: 'Property Type',
+          AppStrings.features: 'Features',
+          AppStrings.parking: 'Parking',
+          AppStrings.gatedCommunity: 'Gated Community',
+          AppStrings.lift: 'Lift',
+          AppStrings.airCondition: 'Air Condition',
+          AppStrings.garden: 'Garden',
+          AppStrings.security: 'Security',
+          AppStrings.applyFilters: 'Apply Filters',
+
+          // Details
+          AppStrings.description: 'Description',
+          AppStrings.readMore: 'Read More',
+          AppStrings.readLess: 'Read Less',
+          AppStrings.call: 'Call',
+          AppStrings.message: 'Message',
+
+          // Sell
+          AppStrings.listProperty: 'List Your Property',
+          AppStrings.propertyTitle: 'Property Title',
+          AppStrings.propertyPurpose: 'Purpose',
+          AppStrings.price: 'Price (৳)',
+          AppStrings.location: 'Location',
+          AppStrings.submitListing: 'Submit Listing',
+
+          // Profile
+          AppStrings.myProfile: 'My Profile',
+          AppStrings.myProperties: 'My Properties',
+          AppStrings.savedProperties: 'Saved Properties',
+          AppStrings.settings: 'Settings',
+          AppStrings.logout: 'Logout',
         },
         'bn_BD': {
           AppStrings.appName: 'ঘরবাড়ি',
@@ -163,6 +229,72 @@ class AppTranslations extends Translations {
           AppStrings.allSet: 'সব ঠিক আছে!',
           AppStrings.accountVerifiedSuccess:
               'আপনার অ্যাকাউন্ট সফলভাবে যাচাই করা হয়েছে।',
+
+          // Bottom Nav
+          AppStrings.navHome: 'হোম',
+          AppStrings.navSell: 'বিক্রি',
+          AppStrings.navSearch: 'অনুসন্ধান',
+          AppStrings.navProfile: 'প্রোফাইল',
+
+          // Home
+          AppStrings.helloUser: 'হ্যালো, রাফাত 👋',
+          AppStrings.findDreamProperty: 'আজই খুঁজুন স্বপ্নের প্রপার্টি',
+          AppStrings.searchPropertiesHint: 'বাড়ি, ফ্ল্যাট খুঁজুন...',
+          AppStrings.findYourDreamHome: 'খুঁজুন আপনার\nস্বপ্নের বাড়ি',
+          AppStrings.buySellRent: 'কেনা • বেচা • ভাড়া',
+          AppStrings.exploreNow: 'এখনই দেখুন',
+          AppStrings.buy: 'কিনুন',
+          AppStrings.sell: 'বিক্রি করুন',
+          AppStrings.searchManually: 'ম্যানুয়াল সার্চ',
+          AppStrings.aiSearch: 'এআই সার্চ',
+          AppStrings.featuredProperties: 'ফিচার্ড প্রপার্টিজ',
+          AppStrings.seeAll: 'সব দেখুন',
+          AppStrings.forSale: 'বিক্রির জন্য',
+          AppStrings.forRent: 'ভাড়ার জন্য',
+          AppStrings.beds: 'বেড',
+          AppStrings.baths: 'বাথ',
+          AppStrings.sqft: 'বর্গফুট',
+
+          // Search
+          AppStrings.searchProperties: 'প্রপার্টি অনুসন্ধান',
+          AppStrings.searchLocationHint: 'লোকেশন দিয়ে খুঁজুন...',
+          AppStrings.all: 'সকল',
+          AppStrings.apartment: 'অ্যাপার্টমেন্ট',
+          AppStrings.duplex: 'ডুপ্লেক্স',
+          AppStrings.house: 'বাড়ি',
+          AppStrings.plot: 'প্লট',
+          AppStrings.priceRange: 'মূল্যের পরিসর',
+          AppStrings.propertyType: 'প্রপার্টির ধরন',
+          AppStrings.features: 'সুবিধাসমূহ',
+          AppStrings.parking: 'পার্কিং',
+          AppStrings.gatedCommunity: 'গেটেড কমিউনিটি',
+          AppStrings.lift: 'লিফট',
+          AppStrings.airCondition: 'এয়ার কন্ডিশন',
+          AppStrings.garden: 'বাগান',
+          AppStrings.security: 'নিরাপত্তা',
+          AppStrings.applyFilters: 'ফিল্টার প্রয়োগ করুন',
+
+          // Details
+          AppStrings.description: 'বিবরণ',
+          AppStrings.readMore: 'আরও পড়ুন',
+          AppStrings.readLess: 'সংক্ষেপ করুন',
+          AppStrings.call: 'কল করুন',
+          AppStrings.message: 'মেসেজ দিন',
+
+          // Sell
+          AppStrings.listProperty: 'আপনার প্রপার্টি যোগ করুন',
+          AppStrings.propertyTitle: 'প্রপার্টির নাম',
+          AppStrings.propertyPurpose: 'উদ্দেশ্য',
+          AppStrings.price: 'মূল্য (৳)',
+          AppStrings.location: 'ঠিকানা',
+          AppStrings.submitListing: 'লিস্টিং জমা দিন',
+
+          // Profile
+          AppStrings.myProfile: 'আমার প্রোফাইল',
+          AppStrings.myProperties: 'আমার লিস্টিং',
+          AppStrings.savedProperties: 'সংরক্ষিত প্রপার্টি',
+          AppStrings.settings: 'সেটিংস',
+          AppStrings.logout: 'লগআউট',
         },
       };
 }
