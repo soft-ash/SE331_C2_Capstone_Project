@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 
 import '../../../core/localization/app_strings.dart';
 import '../../../core/logger/app_logger.dart';
+import '../../routes/app_routes.dart';
 import '../models/onboarding_item_model.dart';
 
 class OnboardingController extends GetxController {
@@ -88,8 +89,8 @@ class OnboardingController extends GetxController {
   }
 
   void getStarted() {
-    AppLogger.success('Onboarding completed, navigating to next flow');
-    // Navigation can go to login or home when created
+    AppLogger.success('Onboarding completed, navigating to login');
+    Get.offAllNamed(AppRoutes.login);
   }
 
   @override

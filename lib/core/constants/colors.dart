@@ -71,6 +71,8 @@ class AppColor {
   static const Color brandTealLight = Color(0xFFE8F6F5);
   static const Color brandSubtitle = Color(0xFF64748B);
   static const Color dotInactiveColor = Color(0xFFE2E8F0);
+  static const Color authGreen = Color(0xFF159C5A);
+  static const Color authGreenLight = Color(0xFFE8F6ED);
 
   // --- Gray Colors ---
   static const Color gray25 = Color(0xFFFDFDFD);
