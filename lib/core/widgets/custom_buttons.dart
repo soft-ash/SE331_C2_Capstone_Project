@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil_plus/flutter_screenutil_plus.dart';
 
 import '../constants/colors.dart';
+import '../font/font.dart';
 
 class CustomButton extends StatelessWidget {
   const CustomButton({
@@ -86,7 +87,7 @@ class CustomButton extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                       style:
                           (textStyle ??
-                                  TextStyle(
+                                  AppFont.style(
                                     fontSize: 16.sp,
                                     fontWeight: FontWeight.w600,
                                   ))

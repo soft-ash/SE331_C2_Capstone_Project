@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil_plus/flutter_screenutil_plus.dart';
 
 import '../constants/colors.dart';
+import '../font/font.dart';
 
 class CustomTextField extends StatelessWidget {
   final TextEditingController? controller;
@@ -49,14 +50,14 @@ class CustomTextField extends StatelessWidget {
       onChanged: onChanged,
       onFieldSubmitted: onFieldSubmitted,
       enabled: enabled,
-      style: TextStyle(
+      style: AppFont.style(
         fontSize: 15.sp,
         fontWeight: FontWeight.w500,
         color: AppColor.gray900,
       ),
       decoration: InputDecoration(
         hintText: hintText,
-        hintStyle: TextStyle(
+        hintStyle: AppFont.style(
           fontSize: 14.sp,
           fontWeight: FontWeight.w400,
           color: AppColor.gray400,

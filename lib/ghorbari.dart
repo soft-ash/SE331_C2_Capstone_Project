@@ -4,6 +4,7 @@ import 'package:flutter_screenutil_plus/flutter_screenutil_plus.dart';
 import 'package:get/get.dart';
 
 import 'core/constants/colors.dart';
+import 'core/font/font.dart';
 import 'core/localization/app_translations.dart';
 import 'features/routes/app_pages.dart';
 
@@ -27,6 +28,7 @@ class Ghorbari extends StatelessWidget {
           getPages: AppPages.routes,
           theme: ThemeData(
             useMaterial3: true,
+            textTheme: AppFont.textTheme(),
             colorScheme: ColorScheme.fromSeed(
               seedColor: AppColor.brandTeal,
               primary: AppColor.brandNavy,

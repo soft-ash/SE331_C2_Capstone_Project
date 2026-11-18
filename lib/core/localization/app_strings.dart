@@ -15,14 +15,17 @@ class AppStrings {
   // Onboarding
   static const String onboarding1Title1 = 'onboarding_1_title_1';
   static const String onboarding1Title2 = 'onboarding_1_title_2';
-  static const String onboarding1TitleHighlight = 'onboarding_1_title_highlight';
+  static const String onboarding1TitleHighlight =
+      'onboarding_1_title_highlight';
   static const String onboarding1Desc = 'onboarding_1_desc';
   static const String onboarding2Title1 = 'onboarding_2_title_1';
-  static const String onboarding2TitleHighlight = 'onboarding_2_title_highlight';
+  static const String onboarding2TitleHighlight =
+      'onboarding_2_title_highlight';
   static const String onboarding2Desc = 'onboarding_2_desc';
   static const String onboarding3Title1 = 'onboarding_3_title_1';
   static const String onboarding3Title2 = 'onboarding_3_title_2';
-  static const String onboarding3TitleHighlight = 'onboarding_3_title_highlight';
+  static const String onboarding3TitleHighlight =
+      'onboarding_3_title_highlight';
   static const String onboarding3Desc = 'onboarding_3_desc';
 
   // Auth - General & Sign In

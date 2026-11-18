@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil_plus/flutter_screenutil_plus.dart';
 
 import '../../../core/constants/colors.dart';
+import '../../../core/font/font.dart';
 
 class PasswordRequirementItem extends StatelessWidget {
   final String text;
@@ -35,7 +36,7 @@ class PasswordRequirementItem extends StatelessWidget {
           SizedBox(width: 8.w),
           Text(
             text,
-            style: TextStyle(
+            style: AppFont.style(
               fontSize: 13.sp,
               fontWeight: FontWeight.w400,
               color: isMet ? AppColor.gray700 : AppColor.gray400,

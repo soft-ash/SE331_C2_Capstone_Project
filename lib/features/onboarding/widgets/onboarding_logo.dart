@@ -10,7 +10,7 @@ class OnboardingLogo extends StatelessWidget {
       child: Image.asset(
         'assets/images/logo.png',
         width: 150.w,
-        height: 80.h,
+        // height: 80.h,
         fit: BoxFit.contain,
         errorBuilder: (context, error, stackTrace) {
           // Graceful fallback if asset fails to load

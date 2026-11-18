@@ -3,6 +3,7 @@ import 'package:flutter_screenutil_plus/flutter_screenutil_plus.dart';
 import 'package:get/get.dart';
 
 import '../../../core/constants/colors.dart';
+import '../../../core/font/font.dart';
 import '../models/onboarding_item_model.dart';
 import 'curved_underline_painter.dart';
 import 'onboarding_logo.dart';
@@ -10,10 +11,7 @@ import 'onboarding_logo.dart';
 class OnboardingPageItem extends StatelessWidget {
   final OnboardingItemModel item;
 
-  const OnboardingPageItem({
-    super.key,
-    required this.item,
-  });
+  const OnboardingPageItem({super.key, required this.item});
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +33,7 @@ class OnboardingPageItem extends StatelessWidget {
             child: IntrinsicHeight(
               child: Column(
                 children: [
-                  SizedBox(height: 8.h),
+                  SizedBox(height: 20.h),
                   const OnboardingLogo(),
                   SizedBox(height: 12.h),
                   Padding(
@@ -48,7 +46,7 @@ class OnboardingPageItem extends StatelessWidget {
                     child: Text(
                       item.descriptionKey.tr,
                       textAlign: TextAlign.center,
-                      style: TextStyle(
+                      style: AppFont.style(
                         fontSize: 14.sp,
                         fontWeight: FontWeight.w400,
                         color: AppColor.brandSubtitle,
@@ -118,7 +116,7 @@ class OnboardingPageItem extends StatelessWidget {
                         Text(
                           item.descriptionKey.tr,
                           textAlign: TextAlign.center,
-                          style: TextStyle(
+                          style: AppFont.style(
                             fontSize: 14.sp,
                             fontWeight: FontWeight.w400,
                             color: AppColor.brandSubtitle,
@@ -144,7 +142,7 @@ class OnboardingPageItem extends StatelessWidget {
         children: [
           TextSpan(
             text: item.titlePart1Key.tr,
-            style: TextStyle(
+            style: AppFont.style(
               fontSize: 24.sp,
               fontWeight: FontWeight.w700,
               color: AppColor.brandNavy,
@@ -154,7 +152,7 @@ class OnboardingPageItem extends StatelessWidget {
           if (item.titlePart2Key.isNotEmpty)
             TextSpan(
               text: item.titlePart2Key.tr,
-              style: TextStyle(
+              style: AppFont.style(
                 fontSize: 24.sp,
                 fontWeight: FontWeight.w700,
                 color: AppColor.brandNavy,
@@ -168,7 +166,7 @@ class OnboardingPageItem extends StatelessWidget {
               children: [
                 Text(
                   item.titleHighlightKey.tr,
-                  style: TextStyle(
+                  style: AppFont.style(
                     fontSize: 24.sp,
                     fontWeight: FontWeight.w700,
                     color: AppColor.brandTeal,
@@ -179,9 +177,7 @@ class OnboardingPageItem extends StatelessWidget {
                   SizedBox(
                     width: 65.w,
                     height: 5.h,
-                    child: const CustomPaint(
-                      painter: CurvedUnderlinePainter(),
-                    ),
+                    child: const CustomPaint(painter: CurvedUnderlinePainter()),
                   ),
               ],
             ),
