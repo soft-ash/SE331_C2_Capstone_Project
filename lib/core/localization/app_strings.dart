@@ -79,4 +79,70 @@ class AppStrings {
   // Auth - All Set
   static const String allSet = 'all_set';
   static const String accountVerifiedSuccess = 'account_verified_success';
+
+  // Bottom Navigation
+  static const String navHome = 'nav_home';
+  static const String navSell = 'nav_sell';
+  static const String navSearch = 'nav_search';
+  static const String navProfile = 'nav_profile';
+
+  // Home Screen
+  static const String helloUser = 'hello_user';
+  static const String findDreamProperty = 'find_dream_property';
+  static const String searchPropertiesHint = 'search_properties_hint';
+  static const String findYourDreamHome = 'find_your_dream_home';
+  static const String buySellRent = 'buy_sell_rent';
+  static const String exploreNow = 'explore_now';
+  static const String buy = 'buy';
+  static const String sell = 'sell';
+  static const String searchManually = 'search_manually';
+  static const String aiSearch = 'ai_search';
+  static const String featuredProperties = 'featured_properties';
+  static const String seeAll = 'see_all';
+  static const String forSale = 'for_sale';
+  static const String forRent = 'for_rent';
+  static const String beds = 'beds';
+  static const String baths = 'baths';
+  static const String sqft = 'sqft';
+
+  // Search Screen & Filters
+  static const String searchProperties = 'search_properties';
+  static const String searchLocationHint = 'search_location_hint';
+  static const String all = 'all';
+  static const String apartment = 'apartment';
+  static const String duplex = 'duplex';
+  static const String house = 'house';
+  static const String plot = 'plot';
+  static const String priceRange = 'price_range';
+  static const String propertyType = 'property_type';
+  static const String features = 'features';
+  static const String parking = 'parking';
+  static const String gatedCommunity = 'gated_community';
+  static const String lift = 'lift';
+  static const String airCondition = 'air_condition';
+  static const String garden = 'garden';
+  static const String security = 'security';
+  static const String applyFilters = 'apply_filters';
+
+  // Property Details Screen
+  static const String description = 'description';
+  static const String readMore = 'read_more';
+  static const String readLess = 'read_less';
+  static const String call = 'call';
+  static const String message = 'message';
+
+  // Sell Screen
+  static const String listProperty = 'list_property';
+  static const String propertyTitle = 'property_title';
+  static const String propertyPurpose = 'property_purpose';
+  static const String price = 'price';
+  static const String location = 'location';
+  static const String submitListing = 'submit_listing';
+
+  // Profile Screen
+  static const String myProfile = 'my_profile';
+  static const String myProperties = 'my_properties';
+  static const String savedProperties = 'saved_properties';
+  static const String settings = 'settings';
+  static const String logout = 'logout';
 }

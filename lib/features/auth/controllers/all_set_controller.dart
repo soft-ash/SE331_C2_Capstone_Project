@@ -11,7 +11,7 @@ class AllSetController extends GetxController {
   }
 
   void onContinue() {
-    AppLogger.success('User finished authentication flow, proceeding to login/home');
-    Get.offAllNamed(AppRoutes.login);
+    AppLogger.success('User finished authentication flow, proceeding to home');
+    Get.offAllNamed(AppRoutes.home);
   }
 }
